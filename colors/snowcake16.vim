@@ -39,7 +39,7 @@ hi Underlined   guifg=NONE      guibg=NONE      ctermfg=NONE   ctermbg=NONE     
 hi Error        guifg=#f10000   guibg=NONE      ctermfg=9      ctermbg=NONE      gui=none      cterm=none
 hi Todo         guifg=#f10000   guibg=NONE      ctermfg=9      ctermbg=NONE      gui=none      cterm=none
 hi MatchParen   guifg=fg        guibg=#c6c6c6   ctermfg=fg     ctermbg=13        gui=none      cterm=none
-hi NonText      guifg=#c6c6c6   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
+hi NonText      guifg=#c6c6c6   guibg=NONE      ctermfg=13     ctermbg=NONE      gui=none      cterm=none
 hi SpecialKey   guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
 hi Title        guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
 
@@ -64,7 +64,7 @@ hi StatusLineNC guifg=bg        guibg=#c6c6c6   ctermfg=bg     ctermbg=13       
 hi TabLine      guifg=bg        guibg=#878787   ctermfg=bg     ctermbg=8         gui=none      cterm=none
 hi TabLineFill  guifg=bg        guibg=#878787   ctermfg=bg     ctermbg=8         gui=none      cterm=none
 hi TabLineSel   guifg=fg        guibg=bg        ctermfg=fg     ctermbg=bg        gui=none      cterm=none
-hi VertSplit    guifg=#878787   guibg=bg        ctermfg=fg     ctermbg=bg        gui=none      cterm=none
+hi VertSplit    guifg=#878787   guibg=bg        ctermfg=8      ctermbg=bg        gui=none      cterm=none
 hi Folded       guifg=#c6c6c6   guibg=NONE      ctermfg=13     ctermbg=NONE      gui=none      cterm=none
 hi FoldColumn   guifg=#c6c6c6   guibg=NONE      ctermfg=13     ctermbg=NONE      gui=none      cterm=none
 
