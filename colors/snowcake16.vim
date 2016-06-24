@@ -1,11 +1,11 @@
 " Color references
 " ANSI 0  (normal black)     #505050
-" ANSI 1  (normal red)       #b95942
-" ANSI 2  (normal green)     #308444
+" ANSI 1  (normal red)       #bf4c63
+" ANSI 2  (normal green)     #4b8f00
 " ANSI 3  (normal yellow)    #996e1f
 " ANSI 4  (normal blue)      #50707e
-" ANSI 5  (normal magenta)   #aa56b2
-" ANSI 6  (normal cyan)      #308090
+" ANSI 5  (normal magenta)   #8f77bb
+" ANSI 6  (normal cyan)      #1a75a0
 " ANSI 7  (normal white)     #f7f7f7
 " ANSI 8  (bright black)     #878787
 " ANSI 9  (bright red)       #f10000
@@ -27,13 +27,13 @@ set background=light
 " General Colors
 hi Normal       guifg=#505050   guibg=#fdfdfd   ctermfg=0      ctermbg=15        gui=none      cterm=none
 hi Comment      guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
-hi Constant     guifg=#308444   guibg=NONE      ctermfg=2      ctermbg=NONE      gui=none      cterm=none
-hi Identifier   guifg=#308090   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
-hi Statement    guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
-hi PreProc      guifg=#308090   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
-hi Type         guifg=#308090   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
-hi Special      guifg=#aa56b2   guibg=NONE      ctermfg=5      ctermbg=NONE      gui=none      cterm=none
-hi Number       guifg=#308090   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
+hi Constant     guifg=#4b8f00   guibg=NONE      ctermfg=2      ctermbg=NONE      gui=none      cterm=none
+hi Identifier   guifg=#1a75a0   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
+hi Statement    guifg=#bf4c63   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
+hi PreProc      guifg=#1a75a0   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
+hi Type         guifg=#1a75a0   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
+hi Special      guifg=#8f77bb   guibg=NONE      ctermfg=5      ctermbg=NONE      gui=none      cterm=none
+hi Number       guifg=#8f77bb   guibg=NONE      ctermfg=5      ctermbg=NONE      gui=none      cterm=none
 hi Delimiter    guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
 
 " Text Markup
@@ -43,7 +43,7 @@ hi Todo         guifg=#f10000   guibg=NONE      ctermfg=9      ctermbg=NONE     
 hi MatchParen   guifg=fg        guibg=#c6c6c6   ctermfg=fg     ctermbg=13        gui=none      cterm=none
 hi NonText      guifg=#c6c6c6   guibg=NONE      ctermfg=13     ctermbg=NONE      gui=none      cterm=none
 hi SpecialKey   guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
-hi Title        guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
+hi Title        guifg=#bf4c63   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
 
 " Text Selection
 hi CursorIM     guifg=bg        guibg=fg        ctermfg=bg     ctermbg=fg        gui=none      cterm=none
@@ -77,9 +77,9 @@ hi SpellRare    guisp=#f10000                   ctermfg=bg     ctermbg=9        
 hi SpellLocal   guisp=#f10000                   ctermfg=bg     ctermbg=9         gui=undercurl cterm=undercurl
 
 " Diff
-hi DiffAdd      guifg=bg        guibg=#308444   ctermfg=bg     ctermbg=2         gui=none      cterm=none
+hi DiffAdd      guifg=bg        guibg=#4b8f00   ctermfg=bg     ctermbg=2         gui=none      cterm=none
 hi DiffChange   guifg=bg        guibg=#c79747   ctermfg=bg     ctermbg=11        gui=none      cterm=none
-hi DiffDelete   guifg=bg        guibg=#b95942   ctermfg=bg     ctermbg=1         gui=none      cterm=none
+hi DiffDelete   guifg=bg        guibg=#bf4c63   ctermfg=bg     ctermbg=1         gui=none      cterm=none
 hi DiffText     guifg=bg        guibg=fg        ctermfg=bg     ctermbg=fg        gui=none      cterm=none
 
 " Misc
@@ -89,7 +89,7 @@ hi SignColumn   guifg=#678797   guibg=NONE      ctermfg=12     ctermbg=NONE     
 hi MoreMsg      guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
 hi ModeMsg      guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
 hi Question     guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
-hi WarningMsg   guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
+hi WarningMsg   guifg=#bf4c63   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
 hi WildMenu     guifg=#50707e   guibg=#efefef   ctermfg=4      ctermbg=14        gui=none      cterm=none
 hi ColorColumn  guifg=NONE      guibg=#f7f7f7   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
 hi Ignore       guifg=bg                        ctermfg=bg
