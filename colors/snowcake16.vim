@@ -16,6 +16,11 @@
 " ANSI 14 (bright cyan)      #efefef
 " ANSI 15 (bright white)     #fdfdfd
 
+" Additional colors for gui
+" Subtle green     #cff1a9
+" Subtle yellow    #f8db94
+" Subtle red       #f2c2c2
+
 " Init
 hi clear
 if exists("syntax_on")
@@ -77,10 +82,10 @@ hi SpellRare    guisp=#f10000                   ctermfg=bg     ctermbg=9        
 hi SpellLocal   guisp=#f10000                   ctermfg=bg     ctermbg=9         gui=undercurl cterm=undercurl
 
 " Diff
-hi DiffAdd      guifg=bg        guibg=#4b8f00   ctermfg=bg     ctermbg=2         gui=none      cterm=none
-hi DiffChange   guifg=bg        guibg=#c79747   ctermfg=bg     ctermbg=11        gui=none      cterm=none
-hi DiffDelete   guifg=bg        guibg=#bf4c63   ctermfg=bg     ctermbg=1         gui=none      cterm=none
-hi DiffText     guifg=bg        guibg=fg        ctermfg=bg     ctermbg=fg        gui=none      cterm=none
+hi DiffAdd      guifg=fg        guibg=#cff1a9   ctermfg=bg     ctermbg=2         gui=none      cterm=none
+hi DiffChange   guifg=fg        guibg=#f8db94   ctermfg=bg     ctermbg=11        gui=none      cterm=none
+hi DiffDelete   guifg=fg        guibg=#f2c2c2   ctermfg=bg     ctermbg=1         gui=none      cterm=none
+hi DiffText     guifg=bg        guibg=#c79747   ctermfg=bg     ctermbg=fg        gui=none      cterm=none
 
 " Misc
 hi Directory    guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
@@ -93,3 +98,9 @@ hi WarningMsg   guifg=#bf4c63   guibg=NONE      ctermfg=1      ctermbg=NONE     
 hi WildMenu     guifg=#50707e   guibg=#efefef   ctermfg=4      ctermbg=14        gui=none      cterm=none
 hi ColorColumn  guifg=NONE      guibg=#f7f7f7   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
 hi Ignore       guifg=bg                        ctermfg=bg
+
+" Filetype diff
+hi diffLine     guifg=#8f77bb   guibg=NONE      ctermfg=5      ctermbg=NONE      gui=none      cterm=none
+hi diffAdded    guifg=#4b8f00   guibg=NONE      ctermfg=2      ctermbg=NONE      gui=none      cterm=none
+hi diffChanged  guifg=#996e1f   guibg=NONE      ctermfg=3      ctermbg=NONE      gui=none      cterm=none
+hi diffRemoved  guifg=#bf4c63   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
