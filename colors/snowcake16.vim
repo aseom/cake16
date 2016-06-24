@@ -99,8 +99,26 @@ hi WildMenu     guifg=#50707e   guibg=#efefef   ctermfg=4      ctermbg=14       
 hi ColorColumn  guifg=NONE      guibg=#f7f7f7   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
 hi Ignore       guifg=bg                        ctermfg=bg
 
-" Filetype diff
+" Syntax diff
 hi diffLine     guifg=#8f77bb   guibg=NONE      ctermfg=5      ctermbg=NONE      gui=none      cterm=none
 hi diffAdded    guifg=#4b8f00   guibg=NONE      ctermfg=2      ctermbg=NONE      gui=none      cterm=none
-hi diffChanged  guifg=#996e1f   guibg=NONE      ctermfg=3      ctermbg=NONE      gui=none      cterm=none
+hi diffChanged  guifg=#c79747   guibg=NONE      ctermfg=11     ctermbg=NONE      gui=none      cterm=none
 hi diffRemoved  guifg=#bf4c63   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
+
+" Syntax gitgutter
+hi link GitGutterAdd          diffAdded
+hi link GitGutterChange       diffChanged
+hi link GitGutterChangeDelete diffChanged
+hi link GitGutterDelete       diffRemoved
+
+" Syntax nerdtree
+hi link NERDTreeBookmarkName  Constant
+hi link NERDTreeDir           Identifier
+hi link NERDTreeDirSlash      Comment
+hi link NERDTreeLinkDir       Special
+hi link NERDTreeLinkFile      Special
+hi link NERDTreeLinkTarget    Comment
+
+" Syntax startify
+hi link StartifyBracket       Comment
+hi link StartifySlash         Comment
