@@ -7,4 +7,6 @@ It was forked from **[cake16](https://github.com/zefei/cake16)** by **[zefei](ht
 Screenshots
 ===========
 
-![image](screenshots/snowcake.png)
+NERDTree and .vimrc:
+
+![image](screenshots/nerdtree-vimrc.png)
