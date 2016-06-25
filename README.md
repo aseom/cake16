@@ -9,4 +9,4 @@ Screenshots
 
 NERDTree and .vimrc:
 
-![image](screenshots/nerdtree-vimrc.png)
+![image](https://raw.githubusercontent.com/aseom/images/master/snowcake-nerd-vimrc.png)
