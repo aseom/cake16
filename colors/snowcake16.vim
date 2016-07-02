@@ -6,10 +6,10 @@
 " ANSI 4  (normal blue)      #50707e
 " ANSI 5  (normal magenta)   #8f77bb
 " ANSI 6  (normal cyan)      #1a75a0
-" ANSI 7  (normal white)     #f7f7f7
+" ANSI 7  (normal white)     #f6f6f6
 " ANSI 8  (bright black)     #878787
 " ANSI 9  (bright red)       #f10000
-" ANSI 10 (bright green)     #82a3b3
+" ANSI 10 (bright green)     #c5d8f0
 " ANSI 11 (bright yellow)    #c79747
 " ANSI 12 (bright blue)      #8ea1aa
 " ANSI 13 (bright magenta)   #d4d4d4
@@ -52,18 +52,18 @@ hi Title        guifg=#bf4c63   guibg=NONE      ctermfg=1      ctermbg=NONE     
 
 " Text Selection
 hi CursorIM     guifg=bg        guibg=fg        ctermfg=bg     ctermbg=fg        gui=none      cterm=none
-hi CursorColumn guifg=NONE      guibg=#f7f7f7   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
-hi CursorLine   guifg=NONE      guibg=#f7f7f7   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
-hi Visual       guifg=bg        guibg=#82a3b3   ctermfg=bg     ctermbg=10        gui=none      cterm=none
+hi CursorColumn guifg=NONE      guibg=#f6f6f6   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
+hi CursorLine   guifg=NONE      guibg=#f6f6f6   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
+hi Visual       guifg=fg        guibg=#c5d8f0   ctermfg=fg     ctermbg=10        gui=none      cterm=none
 hi VisualNOS    guifg=NONE      guibg=NONE      ctermfg=NONE   ctermbg=NONE      gui=underline cterm=underline
-hi IncSearch    guifg=bg        guibg=#82a3b3   ctermfg=bg     ctermbg=10        gui=none      cterm=none
+hi IncSearch    guifg=fg        guibg=#c5d8f0   ctermfg=fg     ctermbg=10        gui=none      cterm=none
 hi Search       guifg=bg        guibg=#c79747   ctermfg=bg     ctermbg=11        gui=none      cterm=none
 
 " UI
 hi LineNr       guifg=#d4d4d4   guibg=bg        ctermfg=13     ctermbg=bg        gui=none      cterm=none
-hi CursorLineNr guifg=NONE      guibg=#f7f7f7   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
+hi CursorLineNr guifg=#8ea1aa   guibg=#f6f6f6   ctermfg=12     ctermbg=7         gui=none      cterm=none
 hi Pmenu        guifg=bg        guibg=#878787   ctermfg=bg     ctermbg=8         gui=none      cterm=none
-hi PmenuSel     guifg=bg        guibg=#82a3b3   ctermfg=bg     ctermbg=10        gui=none      cterm=none
+hi PmenuSel     guifg=fg        guibg=#c5d8f0   ctermfg=fg     ctermbg=10        gui=none      cterm=none
 hi PMenuSbar    guifg=#878787   guibg=#878787   ctermfg=8      ctermbg=8         gui=none      cterm=none
 hi PMenuThumb   guifg=#d4d4d4   guibg=#d4d4d4   ctermfg=13     ctermbg=13        gui=none      cterm=none
 hi StatusLine   guifg=bg        guibg=#8ea1aa   ctermfg=bg     ctermbg=12        gui=none      cterm=none
@@ -96,7 +96,7 @@ hi ModeMsg      guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE     
 hi Question     guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
 hi WarningMsg   guifg=#bf4c63   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
 hi WildMenu     guifg=#50707e   guibg=#efefef   ctermfg=4      ctermbg=14        gui=none      cterm=none
-hi ColorColumn  guifg=NONE      guibg=#f7f7f7   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
+hi ColorColumn  guifg=NONE      guibg=#f6f6f6   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
 hi Ignore       guifg=bg                        ctermfg=bg
 
 " Syntax diff
