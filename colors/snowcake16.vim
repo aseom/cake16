@@ -62,14 +62,14 @@ hi Search       guifg=bg        guibg=#c79747   ctermfg=bg     ctermbg=11       
 " UI
 hi LineNr       guifg=#d4d4d4   guibg=bg        ctermfg=13     ctermbg=bg        gui=none      cterm=none
 hi CursorLineNr guifg=#8ea1aa   guibg=#f6f6f6   ctermfg=12     ctermbg=7         gui=none      cterm=none
-hi Pmenu        guifg=bg        guibg=#878787   ctermfg=bg     ctermbg=8         gui=none      cterm=none
+hi Pmenu        guifg=fg        guibg=#efefef   ctermfg=fg     ctermbg=14        gui=none      cterm=none
 hi PmenuSel     guifg=fg        guibg=#c5d8f0   ctermfg=fg     ctermbg=10        gui=none      cterm=none
-hi PMenuSbar    guifg=#878787   guibg=#878787   ctermfg=8      ctermbg=8         gui=none      cterm=none
-hi PMenuThumb   guifg=#d4d4d4   guibg=#d4d4d4   ctermfg=13     ctermbg=13        gui=none      cterm=none
+hi PmenuSbar    guifg=#efefef   guibg=#efefef   ctermfg=14     ctermbg=14        gui=none      cterm=none
+hi PmenuThumb   guifg=#d4d4d4   guibg=#d4d4d4   ctermfg=13     ctermbg=13        gui=none      cterm=none
 hi StatusLine   guifg=bg        guibg=#8ea1aa   ctermfg=bg     ctermbg=12        gui=none      cterm=none
 hi StatusLineNC guifg=bg        guibg=#d4d4d4   ctermfg=bg     ctermbg=13        gui=none      cterm=none
-hi TabLine      guifg=bg        guibg=#878787   ctermfg=bg     ctermbg=8         gui=none      cterm=none
-hi TabLineFill  guifg=bg        guibg=#878787   ctermfg=bg     ctermbg=8         gui=none      cterm=none
+hi TabLine      guifg=bg        guibg=#d4d4d4   ctermfg=bg     ctermbg=13        gui=none      cterm=none
+hi TabLineFill  guifg=bg        guibg=#d4d4d4   ctermfg=bg     ctermbg=13        gui=none      cterm=none
 hi TabLineSel   guifg=fg        guibg=bg        ctermfg=fg     ctermbg=bg        gui=none      cterm=none
 hi VertSplit    guifg=#efefef   guibg=#efefef   ctermfg=14     ctermbg=14        gui=none      cterm=none
 hi Folded       guifg=#d4d4d4   guibg=NONE      ctermfg=13     ctermbg=NONE      gui=none      cterm=none
